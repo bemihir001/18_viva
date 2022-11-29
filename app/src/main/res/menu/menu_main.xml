@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="example.javatpoint.com.kotlinoptionsmenu.MainActivity">
+    <item
+        android:id="@+id/pg1"
+        android:orderInCategory="1"
+        android:title="@string/pag1"
+        />
+    <item
+        android:id="@+id/pg2"
+        android:title="@string/page2"
+        app:showAsAction="never"
+        android:orderInCategory="2"/>
+    <item
+        android:id="@+id/pg3"
+        android:title="@string/page3"
+        app:showAsAction="never"
+        android:orderInCategory="3"/>
+</menu>
